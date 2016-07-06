@@ -6,8 +6,8 @@ compiler:
 script: make && make test
 
 # need to install the Boost libraries to the sandbox
-#before_script:
-#  - sudo apt-get install expect
+before_script:
+  - sudo apt-get install expect
 notifications:
   email:
     recipients: dany4madden@gmail.com
